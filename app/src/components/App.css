@@ -1,0 +1,41 @@
+.rhap_container {
+    border-radius: 15px;
+}
+
+body {
+    background-color: #f9bb40;
+    color: white;
+    max-width: 980px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+@media (max-width: 1050px) {
+    body {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        max-width: 300px;
+        min-width: 300px;
+    }
+}

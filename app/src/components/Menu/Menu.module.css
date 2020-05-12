@@ -1,0 +1,34 @@
+.menu {
+    margin: 15px auto;
+    padding: 0px;
+    list-style: none;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    overflow: hidden;
+}
+
+.menu :hover {
+    background-color: #040509;
+}
+
+.menu__active {
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+}
+
+.menu__element {
+    background-color: #262626;
+    flex: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .menu {
+        min-width: 300px;
+    }
+}
+

@@ -1,0 +1,28 @@
+.header {
+    background-color: #f9bb40;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: -15px;
+}
+
+.header__logo {
+    padding-left: 10px;
+    width: 150px;
+}
+
+.header__score {
+    float: right;
+    font-size: 38px;
+    margin-top: 51px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 500px) {
+    .header__logo {
+        width: 120px;
+    }
+}
+
+

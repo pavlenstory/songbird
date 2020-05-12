@@ -1,0 +1,75 @@
+.music {
+    display: flex;
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+.music__bird {
+    width: 160px;
+    height: 145px;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.music__list {
+    list-style: none;
+    padding-left: 0;
+    padding-left: 0;
+}
+
+.music__audioPlayer {
+    margin-top: 15px;
+    width: 762px;
+}
+
+
+@media (max-width: 1050px) {
+    .music__audioPlayer {
+        width: 482px;
+    }
+}
+
+@media (max-width: 800px) {
+    .music__audioPlayer {
+        width: 330px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .music {
+        display: block;
+    }
+    .music__list {
+        padding: 0px 20px 20px 20px;
+    }
+    .music__audioPlayer {
+        width: 360px;
+    }
+    .music__nameBird {
+        text-align: center;
+    }
+    .music__bird {
+        width: 367px;
+        height: 367px;
+    }
+}
+
+@media (max-width: 500px) {
+    .music {
+        display: block;
+    }
+    .music__list {
+        padding: 0px 20px 20px 0px;
+    }
+    .music__audioPlayer {
+        width: 208px;
+    }
+    .music__nameBird {
+        text-align: center;
+    }
+    .music__bird {
+        width: 267px;
+        height: 267px;
+    }
+}

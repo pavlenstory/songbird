@@ -1,0 +1,82 @@
+.choice {
+    float: left;
+    display: inline-block;
+    width: 49%;
+    list-style: none;
+    background-color: #262626;
+    margin: 15px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 0;
+
+}
+
+.choice :hover {
+    background-color: #040509;
+}
+
+.choice__green {
+    padding: 15px;
+    height: 35px;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    border-left: 8px solid green;
+}
+
+
+.choice__red {
+    padding: 15px;
+    height: 35px;
+    color: white;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    border-left: 5px solid #f90f1c;
+}
+
+.choice__element {
+    padding: 1.45rem 1.25rem;
+    cursor: pointer;
+    background-color: #262626;
+    border: 1px solid #444444;
+}
+
+.choice__element {
+    padding: 1.45rem 1.25rem;
+    cursor: pointer;
+    background-color: #262626;
+    border: 1px solid #444444;
+}
+
+
+
+@media (max-width: 1050px) {
+    .choice {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .choice {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .choice {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .choice {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
